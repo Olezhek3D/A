@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="container container__header">
+        <img class="logo" src="img/logo.png">  
+        <h3 class="header__name">JOKER</h3>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item">Главная</li>    
+                <li class="header__item">Об авторе</li>    
+                <li class="header__item">Видео</li>    
+                <li class="header__item">Галерея</li>    
+                <li class="header__item">Контакты</li>    
+            </ul>
+
+        </nav>
+        <img class="menu" src="img/menu.png"> 
+    </div>
+
+</header>
+<main>
+    <section class="hero-block">
+        <div class="container container__hero-block">
+            <img class="hero-block__bird" src="img/чайка.png" alt="Ред из игры Angry birds">
+            <div class="hero-block__content">
+                <h1 class="hero-block__title">РЕД</h1>    
+                <p class="hero-block__description">Ред - самая первая птица в игре Angry Birds. Ред всегда готов защитить своих детей от зеленых свиней.</p>
+                <a class="hero-block__buttonlink" href="https://www.youtube.com/watch?v=BNb62NBYvGU">
+                <button class="hero-block__button"><span class="hero_block__text">Подробнее о Реде</span></button>
+                </a>
+            </div>  
+        </div>
+    </section>
+    <section class="about">
+        <div class="container container__about">
+            <h2 class="about__title">ХАРАКТЕРИСТИКА РЕДА</h2>
+            <div class="about__content">
+            <ul class="about__list">
+                <h2 class="about__title__list">Характеристики</h2>
+                <li class="about__item">
+                    <h3 class="about__title__item">Урон</h3>
+                    <div class="about__full"><div class="about__done"></div></div>
+                </li>
+                <li class="about__item">
+                    <h3 class="about__title__item">Смелость</h3>
+                    <div class="about__full_2"><div class="about__done_2"></div></div>
+                </li>
+                <li class="about__item">
+                    <h3 class="about__title__item">Скорость</h3>
+                    <div class="about__full_3"><div class="about__done_3"></div></div>
+                </li>
+            </ul>    
+            <img class="about__bird" src="img/описание.png" alt="Злой Ред">
+                <p class="about__description">Особенности:
+                    Ред настолько зол на
+                    свиней, что он ломает
+                    абсолютно любой
+                    первый блок при 
+                    попадании</p>
+            </div>
+        </div>
+
+
+        
+    </section>
+    <section class="video">
+    <div class=container__video>
+        <h2 class="video__title">Видео</h2>
+        <a class="video__link" href="https://www.youtube.com/watch?v=-eyig_V-_5o&t=4s">
+        <img class="video__img" src="img/videoink.png">
+        </a>
+    </div> 
+    </section>
+    <section class="gallery">
+        <div class="container container__gallery">
+            <h2 class="gallery__title">Галерея</h2>
+            <ul class="gallery__list">
+            <li class="gallery__item">
+                <a class="lightzoom" href="img/first.png">
+                    <img class="gallery__img"src="img/first.png">
+                </a>
+            </li>    
+            <li class="gallery__item">
+                <a class="lightzoom" href="img/second.png">
+                    <img class="gallery__img" src="img/second.png">
+                </a>
+            </li>             
+            <li class="gallery__item">
+                <a class="lightzoom" href="img/third.png">
+                     <img class="gallery__img"  src="img/third.png">
+                </a>
+            </li>    
+            <li class="gallery__item">
+                <a class="lightzoom" href="img/fourth.png">
+                    <img class="gallery__img"src="img/fourth.png">
+                </a>
+            </li>    
+            <li class="gallery__item"> 
+                <a class="lightzoom" href="img/fifth.png">
+                    <img class="gallery__img"src="img/fifth.png">
+                </a>
+            </li>
+            <li class="gallery__item">
+                <a class="lightzoom" href="img/sixth.png">
+                    <img class="gallery__img"src="img/sixth.png">
+                </a>    
+            </li>
+            </ul> 
+        </div>
+        
+    </section>
+</main>   
+<footer class="footer">
+    
+    <div class="container container__footer">
+        <div class="footer__text">
+            <h3 class="footer__author">Олег Перевалов</h3>
+            <p class="footer__allright">Все права защищены. 2024</p>
+        </div>    
+        <a class="footer__link" href="https://t.me/wauttm">
+        <img class="footer__logotelegram" src="img/теле.png">
+    </a>
+    <a class__footer__up href="#top">
+        <img class="footer__logotoup" src="img/UP.png">
+    </a>
+</div>
+
+</footer>
+<script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+<script type="text/javascript">
+    jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true, overlayOpacity:0.5});
+    </script>
+</body>
+</html>
